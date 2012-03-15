@@ -27,3 +27,10 @@ CCM only runs in windows.
 The bat files and exes are there if you want to use this in windows.
 
 Don't forget to keep line endings in the right format, depending on OS.
+
+How to Contribute
+-----------------
+- Come with suggestions and bug reports
+- Help me set up a good build script that compiles it into the release directory with a resonable setup for layers etc, preferably with good motivations of the choices.
+
+The licence file contains the MIT licence in case anyone wondered.
