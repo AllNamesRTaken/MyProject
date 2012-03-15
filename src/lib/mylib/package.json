@@ -1,0 +1,26 @@
+{
+    "name": "app",
+    "version": "1.0",
+    "main": "main",
+    "dependencies": {
+        "dojo": "current",
+        "dijit": "current",
+        "dojox": "current",
+        "util": "current"
+    },
+    "description": "some description here",
+    "licenses": [
+        {
+            "type": "Name of License1",
+            "url": "http://url.to.license1"
+        },
+        {
+            "type": "Name of License2",
+            "url": "http://url.to.license2"
+        }
+    ],
+    "bugs": "some URL",
+    "keywords": ["JavaScript", "Dojo"],
+    "homepage": "some URL",
+    "dojoBuild": "app.profile.js"
+}

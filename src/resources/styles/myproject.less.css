@@ -1,0 +1,14 @@
+@import "stylestart.css";
+
+@import "../../lib/dojotoolkit/dijit/themes/claro/claro.css";
+
+@import "styleend.css";
+/* HTML5 BoilerPlate reset styles here */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+/* HTML5 BoilerPlate end styles here */
