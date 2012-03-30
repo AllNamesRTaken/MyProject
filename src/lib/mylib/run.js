@@ -2,9 +2,9 @@ require({
     baseUrl: 'lib',
 
     packages: [
-		{ name: 'dojo', location: 'dojotoolkit/dojo', packageMap: {} },
-		{ name: 'dijit', location: 'dojotoolkit/dijit', packageMap: {} },
-		{ name: 'dojox', location: 'dojotoolkit/dojox', packageMap: {} },
+		{ name: 'dojo', location: 'dojo', packageMap: {} },
+		{ name: 'dijit', location: 'dijit', packageMap: {} },
+		{ name: 'dojox', location: 'dojox', packageMap: {} },
 		{ name: 'mylib', location: 'mylib', packageMap: {} }
     ],
 

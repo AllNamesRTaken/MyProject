@@ -13,7 +13,7 @@ Adding to this it also integrates:
 All you need to do is:
 
 1. Unpack it
-2. Download Dojo source and put dojo, dijit, dojox and util in the src/lib/dojotoolkit directory (if you want code coverage you should copy it or link it to cov/lib/dojotoolkit as well)
+2. Download Dojo source and put dojo, dijit, dojox and util in the src/lib directory (if you want code coverage you should copy it or link it to cov/lib as well)
 3. Replace the runner.html in dojos util directory with the one in the patched files (it just adds a button to see code coverage from the tests)
 4. Run the compileCoffeeMyLib.sh script to make the tests into Javascript
 5. Hack away at the src/lib/mylib/app/App.js to load your own awesomeness
