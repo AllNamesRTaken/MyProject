@@ -1,26 +1,43 @@
 {
-    "name": "app",
-    "version": "1.0",
-    "main": "main",
-    "dependencies": {
-        "dojo": "current",
-        "dijit": "current",
-        "dojox": "current",
-        "util": "current"
-    },
-    "description": "some description here",
-    "licenses": [
+    "name": "mylib",
+    "description": "This demo package is a part of the MyProject boilerplate.",
+    "keywords": ["JavaScript", "Dojo", "Boilerplate"],
+    "version": "0.1.0",
+    "homepage": "N/A",
+    "maintainers": [
         {
-            "type": "Name of License1",
-            "url": "http://url.to.license1"
-        },
-        {
-            "type": "Name of License2",
-            "url": "http://url.to.license2"
+            "name": "Joel Brage",
+            "email": "joel.brage at unit4.com"
         }
     ],
-    "bugs": "some URL",
-    "keywords": ["JavaScript", "Dojo"],
-    "homepage": "some URL",
-    "dojoBuild": "app.profile.js"
+    "contributors": [
+        {
+            "name": "Joel Brage",
+            "email": "joel.brage at unit4.com"
+        }
+    ],
+    "bugs": {
+        "web": "https://github.com/allnamesrtaken/myproject/issues"
+    },
+    "dependencies": {
+        "clazzy": "1.0.0",
+        "dojo": "1.7.2"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/AllNamesRTaken/MyProject/blob/master/Licence.txt"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/allnamesrtaken/myproject.git"
+        }
+    ],
+    "directories": {
+        "lib": "."
+    },
+    "main": "main",
+    "dojoBuild": "mylib.package.js"
 }
