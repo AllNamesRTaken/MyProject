@@ -9,6 +9,7 @@ Adding to this it also integrates:
 - Code coverage instrumentation scripts using jscoverage
 - Complexity analysis using CCM
 - Testing using D.O.H.
+- Build script examples to minify and move it all to a release folder
 
 All you need to do is:
 
@@ -28,9 +29,21 @@ The bat files and exes are there if you want to use this in windows.
 
 Don't forget to keep line endings in the right format, depending on OS.
 
+Setting up an envionment
+-----------------
+1. If in Windows, install cygwin from http://www.cygwin.com/install.html
+2. Install node.js from http://nodejs.org/
+3. Install SublimeText 2 from http://www.sublimetext.com/2
+4. Install coffeescript by following 5 in windows or 6 otherwise:
+5. in Windows open a cygwin shell and type: npm.cmd install -g coffee-script 
+6. in *IX systems (yes OSX too) run: npm install -g coffee-script
+7. copy the sublime-coffeescript folder from tools to the sublimetext package folder (in SublimText: Preferences -> Browse Packages…)
+8. Google for other nice packages you need and install them too (such as TFS support, V8 engine etc)
+
+Profit!
+
 How to Contribute
 -----------------
 - Come with suggestions and bug reports
-- Help me set up a good build script that compiles it into the release directory with a resonable setup for layers etc, preferably with good motivations of the choices.
 
 The licence file contains the MIT licence in case anyone wondered.
